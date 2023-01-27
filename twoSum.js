@@ -1,15 +1,14 @@
 const number = [1,2,3];
 const target = 5;
 
-
 var twoSum = function(nums, target) {
-  for (let num1 of nums) {
-    for (let num2 of nums) {
-      if (target === num1 + num2) {
-        return console.log(num1, num2)
+  for (let i = 0; i < nums.length - 1; i ++) {
+    for (let j = 1; j < nums.length; j++) {
+      if (target === nums[i] + nums[j]) {
+        return [i, j];
       }
     }
   }
 };
 
-twoSum(number,target);
+console.log(twoSum(number,target));
