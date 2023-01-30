@@ -27,7 +27,7 @@ var isValid = function (s) {
   if (Object.keys(bracket).includes(s[s.length - 1])) {
     return false;
   }
-
+  // stack 생성
   let stack = [];
 
   for (let i = 0 ; i < s.length; i++) {
