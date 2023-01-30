@@ -3,8 +3,8 @@
  * @return {boolean}
  */
 
-let x1 = 121;
-let x2 = -121;
+let num1 = 121;
+let num2 = -121;
 
 var isPalindrome = function(x) {
   let temp1 = '';
@@ -20,5 +20,5 @@ var isPalindrome = function(x) {
   }
 };
 
-console.log(isPalindrome(x1));
-console.log(isPalindrome(x2));
+console.log(isPalindrome(num1));
+console.log(isPalindrome(num2));
