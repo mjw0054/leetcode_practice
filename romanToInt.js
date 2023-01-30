@@ -3,9 +3,9 @@
  * @return {number}
  */
 
-const s1 = "III";
-const s2 = "LVIII";
-const s3 = "MCMXCIV";
+const str1 = "III";
+const str2 = "LVIII";
+const str3 = "MCMXCIV";
 
 const roman = {
   I: 1,
@@ -46,6 +46,6 @@ var romanToInt = function (s) {
   return answer;
 };
 
-console.log(romanToInt(s1));
-console.log(romanToInt(s2));
-console.log(romanToInt(s3));
+console.log(romanToInt(str1));
+console.log(romanToInt(str2));
+console.log(romanToInt(str3));
